@@ -11,12 +11,12 @@ body {
   flex-direction: column;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   font-family: 'Montserrat', sans-serif;
 }
 
 p {
-  font-family: sans-serif;
+  font-weight: bold;
 }
 
 #welcome{
@@ -31,6 +31,11 @@ p {
   background: linear-gradient(to bottom, rgb(0, 255, 136),rgb(10, 94, 55));
 }
 
+h1 {
+  font-size: 4em;
+  margin-bottom: 1em;
+}
+
 .fullscreen {
   height: 100vh;
   display: flex;
@@ -38,10 +43,16 @@ p {
   align-items: center;
 }
 
+.fa-angle-down, .fa-angle-double-up {
+  font-size: 4em;
+}
+
 .content {
   flex-grow: 1;
   width: 100%;
   padding: 1em;
+  display: flex;
+  flex-direction: column;
 }
 
 .subfooter img {

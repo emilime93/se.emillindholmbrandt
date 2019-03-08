@@ -1,11 +1,11 @@
 function initListeners() {
-  document.querySelector('#welcome .subfooter img').addEventListener('click', () => {
+  document.querySelector('#welcome .subfooter i').addEventListener('click', () => {
     scrollToPage('about');
   });
-  document.querySelector('#about .subfooter img').addEventListener('click', () => {
+  document.querySelector('#about .subfooter i').addEventListener('click', () => {
     scrollToPage('skills');
   })
-  document.querySelector('#skills .subfooter img').addEventListener('click', () => {
+  document.querySelector('#skills .subfooter i').addEventListener('click', () => {
     scrollToPage('welcome');
   });
 }
